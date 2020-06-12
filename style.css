@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Ebrima;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('3.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;	
+}
+ul{
+	float: right;
+	list-style-type:none;
+	margin-top: 35px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.1s ease;
+}
+ul li a:hover{
+	background-color: #00BFFF;
+	color: #000;
+
+}
+
+ul li.active a { 
+	background-color: #00BFFF;
+	color: #000;
+}
+.logo img{
+	float left;
+	width: 100px;
+	height: 100px;
+	
+}
+.main{
+ max-width: 1200px;
+ margin: auto;
+}
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+
+}
+.paragraph {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.paragraph p{
+	color: #fff;
+	font-size: 30px;
+}
+.Lowertext small{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.Lowertext small{
+	color: #fff;
+	font-size: 20px;
+}
+
+.button{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.01s ease;
+}
+.btn:hover{
+	background-color: #00BFFF;
+	color: #000;
+}
+
+	/*	<div class="paragraph">
+		  <p>Name: Abdullah Al Mamun</p>
+		<p>District: Khulna, Bangladesh</p>
+		<p>Present Address:Road no 12/A, West Dhanmondi,Dhaka </p>
+		<p>Permanent Address: Tushidanga,Kalaroa ,Satkhira</p>
+		<p>Blood Group: B<sup>+</sup> </p>
+		<p>Hobbies & Passion : Photography, Singing, Socializing & Speaking</p>
+	    </div> 
